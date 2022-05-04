@@ -1,44 +1,36 @@
 import './App.css';
+import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
+import React from 'react';
 
-function App() {
+import Home from './element/home';
+import Equipe from './element/equipe';
+
+const App = () => {
   return (
-    <body>
-      <header>
-        <h1 className= "logo">Irrigation</h1>
-          
-        <nav>
-          <ul>
-            <li> <a href="https://facens.br/">Home</a> </li>
-            <li> <a href="https://facens.br/">Irrigação</a> </li>
-            <li> <a href="https://facens.br/">Equipe</a> </li>
-            <li> <a href="https://facens.br/">Assinatura</a> </li>
-          </ul>
-        </nav>
+    <>
+      <BrowserRouter>
+        <header>
+            <h1 className= "logo">Irrigation</h1>
 
-      </header>
+            <nav>
+              <ul>
+                <li> <Link to="/">Home</Link> </li>
+                <li> <Link to="/irrigacao">Irrigação</Link> </li>
+                <li> <Link to="/equipe">Equipe</Link> </li>
+                <li> <Link to="/assinatura">Assinatura</Link> </li>
+              </ul>
+            </nav>
 
-      <main>
-        <div className= "quadrado">
-          <p className= "projeto">O Projeto</p>
-        </div>
+            <Routes>
+              <Route path= "/" exact element= {<Home/>}/>
 
-        <div className= "quadrado2">
-          <p className= "projeto2">Aumentar a eficiência de plantações de pequeno porte e diminuir o uso desnecessário de água através do protótipo de um sistema de irrigação automatizado.</p>
-        </div>
+              <Route path= "/equipe" element= {<Equipe/>}/>
 
-        <div className= "seta"></div>
+            </Routes>
 
-        <div className= "quadrado3">
-          <p className= "projeto3"> Promovendo diversas vantagens</p>
-        </div>
-
-        <div className= "imagem">
-          <img src="https://cdn-icons-png.flaticon.com/512/1188/1188048.png?w=360" alt="irrigacao"></img>
-        </div>
-
-      </main>
-    </body>
-    
+        </header>
+      </BrowserRouter>
+    </>
   );
 }
 
