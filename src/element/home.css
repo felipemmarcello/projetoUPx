@@ -10,7 +10,7 @@
     border-radius: 20px;
 }
   
-.projeto{
+.quadrado p{
     display: flex;
     justify-content: center;
     margin-top: 130px;
@@ -29,7 +29,7 @@
     border-radius: 20px;
 }
   
-.projeto2{
+.quadrado2 p{
     position: absolute;
     margin-top: 100px;
     width:427px;
@@ -57,13 +57,14 @@
     border-radius: 15px;
 }
   
-.projeto3{
-  
+.quadrado3 p{
+    
     font-family: 'Imbue';
     font-style: normal;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 10px;
     text-align: center;
+    padding-top: 5px;
 }
   
 .imagem img{

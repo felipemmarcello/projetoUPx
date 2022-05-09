@@ -3,9 +3,9 @@
     width: 259px;
     height: 320px;
     left: 250px;
-    top: 282px;
+    top: 220px;
 
-    background: #1D8E0A;
+    background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
@@ -14,9 +14,9 @@
     width: 259px;
     height: 320px;
     left: 640px;
-    top: 282px;
+    top: 220px;
 
-    background: #1D8E0A;
+    background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
@@ -25,9 +25,9 @@
     width: 259px;
     height: 320px;
     left: 1020px;
-    top: 282px;
+    top: 220px;
 
-    background: #1D8E0A;
+    background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
@@ -36,9 +36,9 @@
     width: 259px;
     height: 320px;
     left: 250px;
-    top: 651px;
+    top: 625px;
 
-    background: #1D8E0A;
+    background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
@@ -47,9 +47,9 @@
     width: 259px;
     height: 320px;
     left: 640px;
-    top: 651px;
+    top: 625px;
 
-    background: #1D8E0A;
+    background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
@@ -58,17 +58,17 @@
     width: 259px;
     height: 320px;
     left: 1020px;
-    top: 651px;
+    top: 625px;
 
-    background: #1D8E0A;
+    background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
-h2{
+h3{
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .img1{
@@ -77,10 +77,18 @@ h2{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
 }
 
-.email2{
+.email{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 5px;
+    padding-top: 14px;
+}
+
+.telefone{
     justify-content: center;
     text-align: center;
     text-decoration: none;

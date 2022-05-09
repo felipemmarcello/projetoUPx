@@ -3,6 +3,8 @@ import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
 import React from 'react';
 
 import Home from './element/home';
+import Assinatura from './element/assinatura';
+import Irrigacao from './element/irrigacao';
 import Equipe from './element/equipe';
 
 const App = () => {
@@ -15,15 +17,16 @@ const App = () => {
             <nav>
               <ul>
                 <li> <Link to="/">Home</Link> </li>
+                <li> <Link to="/assinatura">Assinatura</Link> </li>
                 <li> <Link to="/irrigacao">Irrigação</Link> </li>
                 <li> <Link to="/equipe">Equipe</Link> </li>
-                <li> <Link to="/assinatura">Assinatura</Link> </li>
               </ul>
             </nav>
 
             <Routes>
               <Route path= "/" exact element= {<Home/>}/>
-
+              <Route path= "/assinatura" element= {<Assinatura/>}/>
+              <Route path= "/irrigacao" element= {<Irrigacao/>}/>
               <Route path= "/equipe" element= {<Equipe/>}/>
 
             </Routes>
