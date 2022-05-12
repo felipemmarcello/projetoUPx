@@ -1,4 +1,4 @@
-.informacao{
+.informacao2{
     position: absolute;
     width: 618px;
     height: 120px;
@@ -9,7 +9,7 @@
     border-radius: 20px;
 }
 
-.informacao p{
+.informacao2 p{
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
@@ -20,68 +20,79 @@
     padding-left: 50px;
 }
 
-.padrao{
+.pimenta{
+    position: absolute;
+    left: 300px;
+    top: 290px;
+  
+    max-width: 230%;
+    max-height: 230%;
+    width: auto;
+    height: auto;
+}
+
+.cultura1{
     position: absolute;
     width: 240px;
-    height: 520px;
+    height: 400px;
     left: 320px;
-    top: 400px;
+    top: 550px;
 
     background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
-.botao1{
+.botaoC1{
     position: absolute;
     width: 90px;
     height: 30px;
     left: 396px;
-    top: 940px;
+    top: 980px;
 
     background: rgb(21, 162, 178);
     border-radius: 20px;
 }
 
 
-.customizado{
+.cultura2{
     position: absolute;
     width: 240px;
-    height: 520px;
+    height: 400px;
     left: 640px;
-    top: 400px;
+    top: 550px;
 
     background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
-.botao2{
+.botaoC2{
     position: absolute;
     width: 90px;
     height: 30px;
     left: 716px;
-    top: 940px;
+    top: 980px;
 
     background: rgb(21, 162, 178);
     border-radius: 20px;
 }
 
-.manual{
+.cultura3{
     position: absolute;
     width: 240px;
-    height: 520px;
+    height: 400px;
     left: 960px;
-    top: 400px;
+    top: 550px;
 
     background: rgba(59, 156, 74, 0.6);
     border-radius: 20px;
 }
 
-.botao3{
+.botaoC3{
     position: absolute;
     width: 90px;
     height: 30px;
     left: 1036px;
-    top: 940px;
+    top: 980px;
 
     background: rgb(21, 162, 178);
     border-radius: 20px;
@@ -100,21 +111,21 @@ h2{
     font-size: 25px;
 }
 
-.caixaP{
+.caixa1{
     width: 217px;
     padding-left: 12px;
     justify-content: center;
     padding-top: 35px;
 }
 
-.caixaC{
+.caixa2{
     width: 217px;
     padding-left: 12px;
     justify-content: center;
     padding-top: 2px;
 }
 
-.caixaM{
+.caixa3{
     width: 217px;
     padding-left: 12px;
     justify-content: center;

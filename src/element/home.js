@@ -22,8 +22,8 @@ function Home(){
 
                     <p>Redução de mão de obra;</p>
                     <p>Irrigação de forma mais precisa;</p>
-                    <p>Facilidade de irrigação através do site ou aplicativo.</p>
-                    <p>Evitar desperdício de recursos gastos de formas desnecessárias</p>
+                    <p>Facilidade de irrigação através do site ou aplicativo;</p>
+                    <p>Evitar desperdício de recursos gastos de formas desnecessárias.</p>
 
                 </div>
 

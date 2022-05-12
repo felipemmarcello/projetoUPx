@@ -4,7 +4,7 @@ import React from 'react';
 
 import Home from './element/home';
 import Assinatura from './element/assinatura';
-import Irrigacao from './element/irrigacao';
+import Padrao from './element/irrigacoes/padrao';
 import Equipe from './element/equipe';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
               <ul>
                 <li> <Link to="/">Home</Link> </li>
                 <li> <Link to="/assinatura">Assinatura</Link> </li>
-                <li> <Link to="/irrigacao">Irrigação</Link> </li>
+                <li> <Link to="/padrao">Irrigação</Link> </li>
                 <li> <Link to="/equipe">Equipe</Link> </li>
               </ul>
             </nav>
@@ -26,7 +26,7 @@ const App = () => {
             <Routes>
               <Route path= "/" exact element= {<Home/>}/>
               <Route path= "/assinatura" element= {<Assinatura/>}/>
-              <Route path= "/irrigacao" element= {<Irrigacao/>}/>
+              <Route path= "/padrao" element= {<Padrao/>}/>
               <Route path= "/equipe" element= {<Equipe/>}/>
 
             </Routes>
