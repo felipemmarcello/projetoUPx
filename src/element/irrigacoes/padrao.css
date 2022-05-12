@@ -20,6 +20,8 @@
     padding-left: 50px;
 }
 
+/*-------------------------------------------------------*/
+
 .pimenta{
     position: absolute;
     left: 300px;
@@ -42,17 +44,29 @@
     border-radius: 20px;
 }
 
-.botaoC1{
+.botaoCaixa1{
     position: absolute;
-    width: 90px;
+    width: 100px;
     height: 30px;
-    left: 396px;
-    top: 980px;
+    left: 70px;
+    top: 420px;
 
-    background: rgb(21, 162, 178);
+    background: rgba(21, 162, 178, 0.611);
     border-radius: 20px;
 }
 
+.botaoC1{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 70px;
+    top: 460px;
+
+    background: rgba(102, 178, 71, 0.647);
+    border-radius: 20px;
+}
+
+/*-------------------------------------------------------*/
 
 .cultura2{
     position: absolute;
@@ -65,16 +79,29 @@
     border-radius: 20px;
 }
 
-.botaoC2{
+.botaoCaixa2{
     position: absolute;
-    width: 90px;
+    width: 100px;
     height: 30px;
-    left: 716px;
-    top: 980px;
+    left: 70px;
+    top: 420px;
 
-    background: rgb(21, 162, 178);
+    background: rgba(21, 162, 178, 0.611);
     border-radius: 20px;
 }
+
+.botaoC2{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 70px;
+    top: 460px;
+
+    background: rgba(102, 178, 71, 0.647);
+    border-radius: 20px;
+}
+
+/*-------------------------------------------------------*/
 
 .cultura3{
     position: absolute;
@@ -87,16 +114,29 @@
     border-radius: 20px;
 }
 
-.botaoC3{
+.botaoCaixa3{
     position: absolute;
-    width: 90px;
+    width: 100px;
     height: 30px;
-    left: 1036px;
-    top: 980px;
+    left: 70px;
+    top: 420px;
 
-    background: rgb(21, 162, 178);
+    background: rgba(21, 162, 178, 0.611);
     border-radius: 20px;
 }
+
+.botaoC3{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 70px;
+    top: 460px;
+
+
+    background: rgba(102, 178, 71, 0.647);
+    border-radius: 20px;
+}
+/*-------------------------------------------------------*/
 
 p{
     text-align: center;
@@ -111,27 +151,31 @@ h2{
     font-size: 25px;
 }
 
+.texto{
+    font-size: 17px;
+}
+
+/*-------------------------------------------------------*/
+
 .caixa1{
     width: 217px;
     padding-left: 12px;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 10px;
 }
 
 .caixa2{
     width: 217px;
     padding-left: 12px;
     justify-content: center;
-    padding-top: 2px;
+    padding-top: 10px;
 }
 
 .caixa3{
     width: 217px;
     padding-left: 12px;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
-.texto{
-    font-size: 17px;
-}
+/*-------------------------------------------------------*/

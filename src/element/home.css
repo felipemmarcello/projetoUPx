@@ -16,6 +16,8 @@
     margin-top: 130px;
     font-size: 70px;
 }
+
+/*-------------------------------------------------------*/
   
 .quadrado2{
     position: absolute;
@@ -43,6 +45,8 @@
     line-height: 35px;
     text-align: center;
 }
+
+/*-------------------------------------------------------*/
   
 .quadrado3{
     position: absolute;
@@ -66,7 +70,9 @@
     text-align: center;
     padding-top: 5px;
 }
-  
+
+/*-------------------------------------------------------*/
+
 .imagem img{
     position: absolute;
   
