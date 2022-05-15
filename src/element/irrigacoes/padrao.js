@@ -1,5 +1,5 @@
 import React from "react";
-import "./padrao.css"
+import "./padrao.css";
 
 function Padrao(){
     return(

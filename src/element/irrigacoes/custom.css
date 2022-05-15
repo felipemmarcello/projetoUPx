@@ -1,0 +1,10 @@
+.perfil{
+    width: 749px;
+    height: 528px;
+    margin-left: 25%;
+    margin-top: 80px;
+
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
