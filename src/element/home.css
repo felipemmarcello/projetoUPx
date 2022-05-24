@@ -66,9 +66,15 @@
     font-family: 'Imbue';
     font-style: normal;
     font-size: 20px;
-    line-height: 10px;
+    line-height: 0px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 30px;
+}
+
+.quadrado3 h3{
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
 }
 
 /*-------------------------------------------------------*/

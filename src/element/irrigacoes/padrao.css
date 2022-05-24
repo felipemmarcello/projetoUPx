@@ -17,7 +17,8 @@
     line-height: 35px;
     text-align: center;
     width: 520px;
-    padding-left: 50px;
+    padding-left: 95px;
+    margin-top: 20px;
 }
 
 /*-------------------------------------------------------*/
@@ -32,6 +33,29 @@
     width: auto;
     height: auto;
 }
+
+.banana{
+    position: absolute;
+    left: 700px;
+    top: 360px;
+  
+    max-width: 130px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+}
+
+.alface{
+    position: absolute;
+    left: 980px;
+    top: 345px;
+  
+    max-width: 190px;
+    max-height: 190px;
+    width: auto;
+    height: auto;
+}
+
 
 .cultura1{
     position: absolute;
@@ -153,6 +177,7 @@ h2{
 
 .texto{
     font-size: 17px;
+    padding-left: 15px;
 }
 
 /*-------------------------------------------------------*/

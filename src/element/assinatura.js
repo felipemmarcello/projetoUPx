@@ -1,5 +1,8 @@
 import React from "react";
 import "./assinatura.css"
+import {Link} from 'react-router-dom';
+
+
 
 function Assinatura(){
     return(
@@ -8,7 +11,7 @@ function Assinatura(){
             <div className= "informacao">
                 <p>
                     Escolha uma opção abaixo para sua irrigação e, 
-                    após isso, vá para a aba de <b>Irrigação</b> para manusear!
+                    após isso, será redirecionado automaticamente para manusear!
                 </p>
             </div>
 
@@ -22,16 +25,18 @@ function Assinatura(){
                     <p className= "texto">Escolha quando ligar ou desligar a irrigação automática pelo botão LIGAR/DESLIGAR</p>
                     <p className= "texto">R$??,?? mensal</p>
                 </div>
+                
             </div>
+            <button className= "botao1 btn-success"><Link to="/padrao">Selecionar</Link></button>
 
-            <input className="botao1" type= "submit" value= "Selecionar"/>
+            
 
             <div className= "customizado">
                 <h2>Customização</h2>
 
                 <div className= "caixaC">
                     <p className= "texto">Formato de perfil para salvar configurações escolhidas pelo usuário</p>
-                    <p className= "texto">Customização do processo da forma que preferir</p>
+                    <p className= "texto">Customização</p>
                     <p className= "texto">Sinta-se livre em escolher a cultura que deseja irrigar</p>
                     <p className= "texto">Escolha quando ligar ou desligar a irrigação automática pelo botão LIGAR/DESLIGAR</p>
                     <p className= "texto">Atenção: por sua conta e risco!</p>
@@ -39,7 +44,7 @@ function Assinatura(){
                 </div>
             </div>
 
-            <input className="botao2" type= "submit" value= "Selecionar"/>
+            <button className= "botao2 btn-success"><Link to="/custom">Selecionar</Link></button>
 
             <div className= "manual">
                 <h2>Manual</h2>
@@ -53,7 +58,7 @@ function Assinatura(){
                 </div>
             </div>
 
-            <input className="botao3" type= "submit" value= "Selecionar"/>
+            <button className= "botao3 btn-success"><Link to="/manual">Selecionar</Link></button>
 
         </body>
     )

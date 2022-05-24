@@ -16,8 +16,9 @@
     font-size: 22px;
     line-height: 35px;
     text-align: center;
-    width: 520px;
+    width: 575px;
     padding-left: 50px;
+    padding-top: 22px;
 }
 
 /*-------------------------------------------------------*/
@@ -25,7 +26,7 @@
 .padrao{
     position: absolute;
     width: 240px;
-    height: 520px;
+    height: 550px;
     left: 320px;
     top: 400px;
 
@@ -33,12 +34,16 @@
     border-radius: 20px;
 }
 
+.padrao h2{
+    margin-top: 10px;
+}
+
 .botao1{
     position: absolute;
     width: 90px;
     height: 30px;
     left: 396px;
-    top: 940px;
+    top: 960px;
 
     background: rgb(21, 162, 178);
     border-radius: 20px;
@@ -49,7 +54,7 @@
 .customizado{
     position: absolute;
     width: 240px;
-    height: 520px;
+    height: 550px;
     left: 640px;
     top: 400px;
 
@@ -57,12 +62,16 @@
     border-radius: 20px;
 }
 
+.customizado h2{
+    margin-top: 10px;
+}
+
 .botao2{
     position: absolute;
     width: 90px;
     height: 30px;
     left: 716px;
-    top: 940px;
+    top: 960px;
 
     background: rgb(21, 162, 178);
     border-radius: 20px;
@@ -73,7 +82,7 @@
 .manual{
     position: absolute;
     width: 240px;
-    height: 520px;
+    height: 550px;
     left: 960px;
     top: 400px;
 
@@ -81,12 +90,16 @@
     border-radius: 20px;
 }
 
+.manual h2{
+    margin-top: 10px;
+}
+
 .botao3{
     position: absolute;
     width: 90px;
     height: 30px;
     left: 1036px;
-    top: 940px;
+    top: 960px;
 
     background: rgb(21, 162, 178);
     border-radius: 20px;
@@ -105,6 +118,7 @@ h2{
     text-align: center;
     text-decoration: none;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 .texto{
@@ -125,6 +139,10 @@ h2{
     padding-left: 12px;
     justify-content: center;
     padding-top: 2px;
+}
+
+.caixaC p{
+    margin-top: 16px;
 }
 
 .caixaM{

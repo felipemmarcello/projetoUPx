@@ -14,13 +14,12 @@ const App = () => {
     <>
       <BrowserRouter>
         <header>
-            <h1 className= "logo">Irrigation</h1>
+            <h1 className= "logo pt-4">Irrigation</h1>
 
             <nav>
               <ul>
                 <li> <Link to="/">Home</Link> </li>
                 <li> <Link to="/assinatura">Assinatura</Link> </li>
-                <li> <Link to="/custom">Irrigação</Link> </li>
                 <li> <Link to="/equipe">Equipe</Link> </li>
               </ul>
             </nav>
@@ -30,7 +29,8 @@ const App = () => {
               <Route path= "/assinatura" element= {<Assinatura/>}/>
               <Route path= "/custom" element= {<Custom/>}/>
               <Route path= "/equipe" element= {<Equipe/>}/>
-
+              <Route path= "/padrao" element= {<Padrao/>}/>
+              <Route path= "/manual" element= {<Manual/>}/>
             </Routes>
 
         </header>
