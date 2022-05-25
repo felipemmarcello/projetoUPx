@@ -19,8 +19,8 @@ function Manual(){
         console.log('SUBMIT', values)
         axios.post('https://us-central1-api-irrigacao.cloudfunctions.net/api/data/create',values)
         .then((response)=>{
-            console.log("o Luan ganha 800k por mes pra ficar no banco do timão")
-            window.alert('Cadastrado com sucesso ! Precisa atualizar a tela para carregar no histórico e limpar os campos (preciso arrumar isso)')
+            console.log("Cadastrado")
+            window.alert('Cadastrado com sucesso! Atualize a página para mostrar a nova ocorrência')
         })  
     }
 
@@ -54,14 +54,14 @@ function Manual(){
                                 </div>
                                 <div>
                                     <label className="text-info font-weight-bold pr-2">Umidade:</label>
-                                    <Field name="umidity" type="text"/>
+                                    <Field name="humidity" type="text"/>
                                 </div>
                                 <div>
                                     <label className="text-info font-weight-bold pr-2">Quantidade de Água (em mL):</label>
                                     <Field name="qtdagua" type="text"/>
                                 </div>
 
-                                <button className="btn-success center" type="submit">Cadastrar</button>
+                                <button className="btn-success center" type="submit">Irrigar</button>
                             </form>
                         )}
                     ></Formik>

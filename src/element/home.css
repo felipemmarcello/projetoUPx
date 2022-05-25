@@ -2,10 +2,10 @@
     position: absolute;
     width: 458px;
     height: 365px;
-    left: 21%;
+    left: 20.5%;
     top: 199px;
   
-    background: #ADAF2A;
+    background: #24b386;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
@@ -19,16 +19,17 @@
 
 /*-------------------------------------------------------*/
   
-.quadrado2{
+.quadrado2{ 
     position: absolute;
     width: 458px;
-    height: 365px;
+    height: 365px;  
     right: 20%;
     top: 199px;
   
-    background: #C4C4C4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    border: solid;
+    border-color: black;
 }
   
 .quadrado2 p{
@@ -51,30 +52,35 @@
 .quadrado3{
     position: absolute;
     width: 514px;
-    height: 280px;
+    height: 348px;
     left: 17%;
-    top: 692px;
-  
-    background: #C4C4C4;
+    top: 669px;
+
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
+    border: solid;
+    border-color: black;
 }
   
-.quadrado3 p{
-    
+.textoQua{
     font-family: 'Imbue';
     font-style: normal;
-    font-size: 20px;
-    line-height: 0px;
+    line-height: 32px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 89px;
+    margin-left: 8px;
+}
+
+.textoQua p{
+    font-size: 20px;
 }
 
 .quadrado3 h3{
     position: absolute;
-    left: 100px;
-    margin-top: 10px;
+    left: 64px;
+    margin-top: 15px;
+    font-size: 25px;
 }
 
 /*-------------------------------------------------------*/

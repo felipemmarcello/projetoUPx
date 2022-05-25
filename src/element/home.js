@@ -16,14 +16,20 @@ function Home(){
                 <div className= "seta"></div>
 
                 <div className= "quadrado3">
-                    <h3>Promovendo diversas vantagens:</h3>
+                    <h3><b>Promovendo diversas vantagens:</b></h3>
 
                     <p></p>
 
-                    <p>Redução de mão de obra;</p>
-                    <p>Irrigação de forma mais precisa;</p>
-                    <p>Facilidade de irrigação através do site ou aplicativo;</p>
-                    <p>Evitar desperdício de recursos gastos de formas desnecessárias.</p>
+                    <div className= "textoQua">
+                        <p> Redução de mão de obra; 
+                            <br></br> 
+                            Irrigação de forma mais precisa;
+                            <br></br> 
+                            Facilidade de irrigação através do site ou aplicativo;
+                            <br></br> 
+                            Evitar desperdício de recursos gastos de formas desnecessárias.
+                        </p>
+                    </div>
 
                 </div>
 
