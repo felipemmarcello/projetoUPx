@@ -1,99 +1,51 @@
-.quadrado{
-    position: absolute;
-    width: 458px;
-    height: 365px;
-    left: 20.5%;
-    top: 199px;
-  
+.height-projeto {
+    height: 252px !important;
+    
+}
+
+.bg-quadrado-projeto {
     background: #24b386;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-  
-.quadrado p{
-    display: flex;
-    justify-content: center;
-    margin-top: 130px;
-    font-size: 70px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
 }
 
-/*-------------------------------------------------------*/
-  
-.quadrado2{ 
-    position: absolute;
-    width: 458px;
-    height: 365px;  
-    right: 20%;
-    top: 199px;
-  
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    border: solid;
-    border-color: black;
-}
-  
-.quadrado2 p{
-    position: absolute;
-    margin-top: 100px;
-    width:427px;
-    height: 252px;
-    left: 20px;
-  
-    font-family: 'Imbue';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 35px;
-    text-align: center;
+.bg-body {
+    background-color: #E8F0E4;
 }
 
-/*-------------------------------------------------------*/
-  
-.quadrado3{
-    position: absolute;
-    width: 514px;
-    height: 348px;
-    left: 17%;
-    top: 669px;
+.display-18{
+    font-size: 18px;
+}
 
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    border: solid;
-    border-color: black;
+.ajustar-texto-projeto {
+    margin-top: 78px;
+    font-size: 55px;
+    font-family: 'Imbue';    
+}
+
+.ajustar-fonte {
+    font-family: 'Imbue'; 
+}
+
+.ajustar-texto-explicativo {
+    margin-top: 60px;
+}
+
+.borda {
+    border: 2px black solid;
+    border-radius: 22px !important;
+    
 }
   
 .textoQua{
     font-family: 'Imbue';
     font-style: normal;
-    line-height: 32px;
     text-align: center;
-    padding-top: 89px;
-    margin-left: 8px;
+    margin: 20px;
 }
 
 .textoQua p{
     font-size: 20px;
 }
-
-.quadrado3 h3{
-    position: absolute;
-    left: 64px;
-    margin-top: 15px;
-    font-size: 25px;
-}
-
 /*-------------------------------------------------------*/
 
-.imagem img{
-    position: absolute;
-  
-    max-width: 300%;
-    max-height: 300%;
-  
-    width: auto;
-    height: auto;
-    right: 18%;
-    top: 650px;
-  
-}

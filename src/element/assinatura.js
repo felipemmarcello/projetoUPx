@@ -1,85 +1,81 @@
 import React from "react";
 import "./assinatura.css"
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
+function Assinatura() {
+    return (
+        <div className="container-fluid">
 
-
-function Assinatura(){
-    return(
-        <body>
-
-            <div className= "informacao">
-                <p>
-                    Escolha uma opção abaixo para sua irrigação e, 
-                    após isso, será redirecionado automaticamente para manusear!
-                </p>
-            </div>
-
-            <div className= "padrao">
-                <h2>Padrão</h2>
-
-                <div className= "caixaP">
-                    <ul>
-                        <li>Simples e prático</li>
-                            <br></br>
-                        <li>Configurações de 3 culturas pré-definidas</li>
-                            <br></br>
-                        <li>Processo automatizado</li>
-                            <br></br>
-                        <li>Escolha quando ligar ou desligar a irrigação automática pelo botão LIGAR/DESLIGAR</li>
-                            <br></br>  
-                        <li>R$??,?? mensal</li>
-                    </ul>
-                </div>
+            <div className="row align-items-center">
+                <div className="col-md-3 col-sm-12 mt-5 text-md-right text-center">
                 
-            </div>
-            <button className= "botao1"><Link to="/padrao" style={{textDecoration: 'none'}}>Selecionar</Link></button>
-
-            
-
-            <div className= "customizado">
-                <h2>Customização</h2>
-
-                <div className= "caixaC">
-                    <ul>
-                        <li>Formato de perfil para salvar configurações escolhidas pelo usuário</li>
-                            <br></br>
-                        <li>Customização</li>
-                            <br></br>
-                        <li>Sinta-se livre em escolher a cultura que deseja irrigar</li>
-                            <br></br>
-                        <li>Escolha quando ligar ou desligar a irrigação automática pelo botão LIGAR/DESLIGAR</li>
-                            <br></br>
-                        <li>Atenção: por sua conta e risco!</li>
-                            <br></br>
-                        <li>Gratuito!</li>
-                    </ul>
+                </div>
+                <div className="col-md-6 col-sm-12 mt-5 borda bg-card-titulo">
+                    <p className="texto-informacao pt-4">
+                        Escolha uma opção abaixo para sua irrigação e,
+                        após isso, será redirecionado automaticamente para manusear!
+                    </p>
                 </div>
             </div>
 
-            <button className= "botao2"><Link to="/custom" style={{textDecoration: 'none'}}>Selecionar</Link></button>
+            <div className="row py-3 justify-content-center">
+                <div className="col-md-2 col-sm-12 ">
+                    <div className="padrao caixa-lista">
+                        <h2>Padrão</h2>
 
-            <div className= "manual">
-                <h2>Manual</h2>
+                        <ul className="p-2">
+                            <li>Simples e prático</li>
+                            <li>Configurações de 3 culturas pré-definidas</li>
+                            <li>Processo automatizado</li>
+                            <li>Escolha quando ligar ou desligar a irrigação automática pelo botão LIGAR/DESLIGAR</li>
+                            <li>R$??,?? mensal</li>
+                        </ul>
+                        
+                        <div className="row justify-content-center ">
+                            <button className="btn-success btn1"><Link to="/padrao" className="text-white text-decoration-none">Selecionar</Link></button>
+                        </div>
 
-                <div className= "caixaM">
-                    <ul>
-                        <li>Controle de forma manual</li>
-                            <br></br>
-                        <li>Exibe histórico de quantas vezes e qual data/horário em que o usuário irrigou</li>
-                            <br></br>
-                        <li>É necessário apertar apenas 1 botão para irrigar</li>
-                            <br></br>
-                        <li>Atenção: por sua conta e risco!</li>
-                            <br></br>
-                        <li>Gratuito!</li>
-                    </ul>
+                    </div>
+                </div>
+                <div className="col-md-2 col-sm-12 ">
+                    <div className="padrao caixa-lista">
+                        <h2>Customização</h2>
+                        
+                        <ul className="p-2">
+                            <li>Formato de perfil para salvar configurações escolhidas pelo usuário</li>
+                            <li>Customização</li>
+                            <li>Sinta-se livre em escolher a cultura que deseja irrigar</li>
+                            <li>Escolha quando ligar ou desligar a irrigação automática pelo botão LIGAR/DESLIGAR</li>
+                            <li>Atenção: por sua conta e risco!</li>
+                            <li>Gratuito!</li>
+                        </ul>
+
+                        <div className="row justify-content-center ">
+                            <button className="btn-success btn2"><Link to="/custom" className="text-decoration-none text-white">Selecionar</Link></button>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="col-md-2 col-sm-12">
+                    <div className="padrao caixa-lista">
+                        <h2>Manual</h2>
+
+                        <ul className="p-2">
+                            <li>Controle de forma manual</li>
+                            <li>Exibe histórico de quantas vezes e qual data/horário em que o usuário irrigou</li>
+                            <li>É necessário apertar apenas 1 botão para irrigar</li>
+                            <li>Atenção: por sua conta e risco!</li>
+                            <li>Gratuito!</li>
+                        </ul>
+
+                        <div className="row justify-content-center ">
+                            <button className="btn-success btn3"><Link to="/manual" className="text-decoration-none text-white">Selecionar</Link></button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-
-            <button className= "botao3"><Link to="/manual" style={{textDecoration: 'none'}}>Selecionar</Link></button>
-
-        </body>
+        </div>
     )
 }
 

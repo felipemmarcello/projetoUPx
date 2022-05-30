@@ -1,175 +1,32 @@
-.informacao2{
-    position: absolute;
-    width: 618px;
-    height: 120px;
-    left: 465px;
-    top: 180px;
-
-    border-radius: 20px;
-    border: solid;
-    border-color: black;
-}
-
-.informacao2 p{
+.texto-informacao{
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
-    text-align: center;
-    width: 520px;
-    padding-left: 95px;
-    margin-top: 20px;
 }
 
-/*-------------------------------------------------------*/
-
-.pimenta{
-    position: absolute;
-    left: 300px;
-    top: 290px;
-  
-    max-width: 230%;
-    max-height: 230%;
-    width: auto;
-    height: auto;
+.borda {
+    border: 2px black solid;
+    border-radius: 22px !important;
+    
 }
 
-.banana{
-    position: absolute;
-    left: 700px;
-    top: 360px;
-  
-    max-width: 130px;
-    max-height: 160px;
-    width: auto;
-    height: auto;
+.img-tamanho {
+    height: 180px;
 }
 
-.alface{
-    position: absolute;
-    left: 980px;
-    top: 345px;
-  
-    max-width: 190px;
-    max-height: 190px;
-    width: auto;
-    height: auto;
-}
-
-
-.cultura1{
-    position: absolute;
-    width: 240px;
-    height: 400px;
-    left: 320px;
-    top: 550px;
-
+.cultura{
+    height: 330px;
     background: rgba(41, 167, 221, 0.6);
     border-radius: 20px;
+    margin-top:50px;
 }
 
-.botaoCaixa1{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 70px;
-    top: 420px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
+.btn4 {
+    margin-top: 2.1em;
 }
 
-.botaoC1{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 70px;
-    top: 460px;
-
-    background: rgba(102, 178, 71, 0.647);
-    border-radius: 20px;
-}
-
-/*-------------------------------------------------------*/
-
-.cultura2{
-    position: absolute;
-    width: 240px;
-    height: 400px;
-    left: 640px;
-    top: 550px;
-
-    background: rgba(41, 167, 221, 0.6);
-    border-radius: 20px;
-}
-
-.botaoCaixa2{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 70px;
-    top: 420px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
-}
-
-.botaoC2{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 70px;
-    top: 460px;
-
-    background: rgba(102, 178, 71, 0.647);
-    border-radius: 20px;
-}
-
-/*-------------------------------------------------------*/
-
-.cultura3{
-    position: absolute;
-    width: 240px;
-    height: 400px;
-    left: 960px;
-    top: 550px;
-
-    background: rgba(41, 167, 221, 0.6);
-    border-radius: 20px;
-}
-
-.botaoCaixa3{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 70px;
-    top: 420px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
-}
-
-.botaoC3{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 70px;
-    top: 460px;
-
-
-    background: rgba(102, 178, 71, 0.647);
-    border-radius: 20px;
-}
 /*-------------------------------------------------------*/
 
 p{
@@ -187,30 +44,5 @@ h2{
 
 .texto{
     font-size: 17px;
-    padding-left: 15px;
+    margin: 16px;
 }
-
-/*-------------------------------------------------------*/
-
-.caixa1{
-    width: 217px;
-    padding-left: 12px;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.caixa2{
-    width: 217px;
-    padding-left: 12px;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.caixa3{
-    width: 217px;
-    padding-left: 12px;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-/*-------------------------------------------------------*/

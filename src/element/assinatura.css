@@ -1,121 +1,41 @@
-.informacao{
-    position: absolute;
-    width: 618px;
-    height: 120px;
-    left: 465px;
-    top: 180px;
-
-    border-radius: 20px;
-    border: solid;
-    border-color: black;
-}
-
-.informacao p{
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 35px;
-    text-align: center;
-    width: 575px;
-    padding-left: 50px;
-    padding-top: 22px;
+.borda {
+    border: 2px black solid;
+    border-radius: 22px !important;
+    
 }
 
 /*-------------------------------------------------------*/
 
 .padrao{
-    position: absolute;
-    width: 240px;
-    height: 550px;
-    left: 320px;
-    top: 400px;
-
+    height: 530px;
     background: rgba(41, 167, 221, 0.6);
     border-radius: 20px;
 }
 
 .padrao h2{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-.botao1{
-    position: absolute;
-    width: 90px;
-    height: 30px;
-    left: 396px;
-    top: 960px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
+.p-2 li{
+    padding-top:15px;
 }
 
-/*-------------------------------------------------------*/
-
-.customizado{
-    position: absolute;
-    width: 240px;
-    height: 550px;
-    left: 640px;
-    top: 400px;
-
-    background: rgba(41, 167, 221, 0.6);
-    border-radius: 20px;
+.btn1 {
+    margin-top: 10em;
 }
 
-.customizado h2{
-    margin-top: 10px;
+.btn2 {
+    margin-top: 3.1em;
 }
 
-.botao2{
-    position: absolute;
-    width: 90px;
-    height: 30px;
-    left: 716px;
-    top: 960px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
+.btn3 {
+    margin-top: 10em;
 }
 
-/*-------------------------------------------------------*/
-
-.manual{
-    position: absolute;
-    width: 240px;
-    height: 550px;
-    left: 960px;
-    top: 400px;
-
-    background: rgba(41, 167, 221, 0.6);
-    border-radius: 20px;
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
 }
-
-.manual h2{
-    margin-top: 10px;
-}
-
-.botao3{
-    position: absolute;
-    width: 90px;
-    height: 30px;
-    left: 1036px;
-    top: 960px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-color: black;
-    border-width: 2px;
-}
-
-.botao3
 
 /*-------------------------------------------------------*/
 
@@ -130,7 +50,7 @@ h2{
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .texto{
@@ -139,43 +59,14 @@ h2{
 
 /*-------------------------------------------------------*/
 
-.caixaP{
-        width: 217px;
-        justify-content: center;
-        padding-top: 70px;
-        padding-right: 13px;
-}
-
-.caixaP li{
-    line-height: 20px;
+.caixa-lista{
     text-align: center;
     list-style-type: none;
 }
 
-.caixaC{
-    width: 217px;
-    justify-content: center;
-    padding-top: 30px;
-    padding-right: 13px;
-}
-
-.caixaC li{
-    line-height: 20px;
-    text-align: center;
+.caixa-lista ul li{
     list-style-type: none;
 }
 
-.caixaM{
-    width: 217px;
-    justify-content: center;
-    padding-top: 60px;
-    padding-right: 13px;
-}
-
-.caixaM li{
-    line-height: 20px;
-    text-align: center;
-    list-style-type: none;
-}
 
 /*-------------------------------------------------------*/
