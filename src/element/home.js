@@ -29,7 +29,7 @@ function Home() {
                     <div class="card-group ajustar-fonte">
                         <div className="card bg-body borda">
 
-                            <h3 className="card-title font-weight-bold">Promovendo diversas vantagens:</h3>
+                            <h3 className="card-title font-weight-bold">Promove diversas vantagens:</h3>
 
                             <div className='my-auto mx-auto text-justify'>
                                 <p className='display-18'>Redução de mão de obra;</p>

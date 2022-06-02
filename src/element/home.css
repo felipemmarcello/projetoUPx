@@ -1,5 +1,5 @@
 .height-projeto {
-    height: 252px !important;
+    height: 300px !important;
     
 }
 
@@ -15,25 +15,33 @@
 
 .display-18{
     font-size: 18px;
+    margin-top: -12px;
 }
 
 .ajustar-texto-projeto {
-    margin-top: 78px;
+    margin-top: 115px;
     font-size: 55px;
     font-family: 'Imbue';    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .ajustar-fonte {
     font-family: 'Imbue'; 
 }
 
-.ajustar-texto-explicativo {
-    margin-top: 60px;
+.height-projeto h2 {
+    padding-top: 45px;
 }
 
 .borda {
     border: 2px black solid;
-    border-radius: 22px !important;
+    border-radius: 20px !important;
     
 }
   

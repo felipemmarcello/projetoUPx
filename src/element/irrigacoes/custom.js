@@ -13,6 +13,7 @@ function Custom() {
                 window.alert('Cadastrado com sucesso!')
             })
     }
+
     return (
         <div className="container-fluid">
             <div className='row pt-5 mt-2'>
@@ -45,6 +46,11 @@ function Custom() {
                                         <label className="text-info font-weight-bold pr-2">Nome do perfil: </label>
                                         <Field name="planta" type="text" />
                                     </div>
+
+                                    <div>
+                                        <label className="text-info font-weight-bold pr-2">Tempo de irrigação:</label>
+                                        <Field name="irrigationTime" type="number" />
+                                    </div>
                                     
                                     <div>
                                         <label className="text-info font-weight-bold pr-2">Temperatura: </label>
@@ -54,11 +60,6 @@ function Custom() {
                                     <div>
                                         <label className="text-info font-weight-bold pr-2">Umidade mínima do solo:</label>
                                         <Field name="minimumSoilHumidity" type="number" />
-                                    </div>
-
-                                    <div>
-                                        <label className="text-info font-weight-bold pr-2">Tempo de irrigação:</label>
-                                        <Field name="irrigationTime" type="number" />
                                     </div>
                                     
                                     <button className="btn-success " type="submit">Cadastrar</button>

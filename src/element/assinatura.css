@@ -14,6 +14,11 @@
 
 .padrao h2{
     margin-top: 30px;
+    font-style: italic;
+}
+
+.pt-4, .py-4 {
+    padding-top: 1rem !important;
 }
 
 .p-2 li{
