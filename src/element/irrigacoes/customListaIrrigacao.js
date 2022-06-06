@@ -9,6 +9,7 @@ import cardBanner from '../fotos/cardBanner.png'
 function CustomListaIrrigacao() {
 
     const [irrigacaoList, setIrrigacao] = React.useState([]);
+
     React.useEffect(() => {
         axios.get('https://us-central1-api-irrigacao.cloudfunctions.net/api/planta/list')
         
@@ -18,7 +19,7 @@ function CustomListaIrrigacao() {
             .catch((err) => {
                 console.log(err);
             });
-    })
+    }, [])
 
     function onSubmit(values, actions) {
         console.log('SUBMIT', values)
@@ -28,10 +29,12 @@ function CustomListaIrrigacao() {
                 toast.success("Irrigação ativa: >" + values.planta + "<");
             })
     }
+
     return (
         <div className='row justify-content-center pb-3'>
                 {irrigacaoList.map((irrigacao) => {
                     return (
+                        
                         <div className=' col-sm-12 card py-2 col-md-2 bg-body border rounded border-success bannerPerfil'>
                             <Formik
                                 initialValues={{
@@ -56,11 +59,10 @@ function CustomListaIrrigacao() {
                                                 <button className="btn-success px-3" type="submit">Ativar</button>
                                             </div>
 
-                                            {/* Reativar caso continue com a ideia de excluir perfil
                                             <div className='col-12 text-center botaoLista'>
                                                 <button className="btn-danger px-3" type="submit">Excluir Perfil</button>
                                             </div>
-                                            */}
+                                            
                                         </div>
                                     </form>
                                 )}

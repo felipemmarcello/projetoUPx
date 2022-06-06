@@ -4,10 +4,12 @@ import "./manual.css";
 
 function HistoricoIrrigacao() {
     const [plantas, setPlantas] = React.useState([]);
+    
     React.useEffect(() => {
         axios.get('https://us-central1-api-irrigacao.cloudfunctions.net/api/data/listAll')
             .then(res => {
                 console.log(res.data)
+                
                 res.data.forEach(element => {
                     const date = new Date(element.date).toLocaleDateString()
                     const time = new Date(element.date).toLocaleTimeString() 

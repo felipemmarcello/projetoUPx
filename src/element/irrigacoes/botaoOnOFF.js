@@ -25,20 +25,24 @@ function BotaoOnOFF() {
             .catch(() => {
                 console.log("Deu errado")
             })
-    })
+    }, [])
 
     return (
 
         <>
             <div>
                 <h4 className="text-success">Ativo: <span className="text-info">{botao.on}</span></h4>
+                
                 <div className="row">
+
                     <div className="col-6 text-right">
                         <Formik
                             initialValues={{
                                 status: 'on'
                             }}
+
                             onSubmit={onSubmit}
+
                             render={({ values, handleSubmit }) => (
                                 <form onSubmit={handleSubmit}>
                                     <button className="btn-success px-5" type="submit">Ligar</button>
@@ -47,11 +51,14 @@ function BotaoOnOFF() {
                         ></Formik>
                 </div>
                     <div className="col-6 text-left">
+
                         <Formik
                             initialValues={{
                                 status: 'off'
                             }}
+
                             onSubmit={onSubmit}
+
                             render={({ values, handleSubmit }) => (
                                 <form onSubmit={handleSubmit}>
                                     <button className="btn-danger px-5" type="submit">Desligar</button>

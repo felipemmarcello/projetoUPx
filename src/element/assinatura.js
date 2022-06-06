@@ -31,7 +31,7 @@ function Assinatura() {
                             <li>Configurações de 3 culturas pré-definidas</li>
                             <li>Processo automatizado</li>
                             <li>É necessário apertar apenas 1 botão para começar a irrigação</li>
-                            <li>Gratuito!</li>
+                            <li>R$XX,XX</li>
                         </ul>
                     </div>
 
