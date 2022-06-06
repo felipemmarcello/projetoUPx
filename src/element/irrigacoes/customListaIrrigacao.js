@@ -50,7 +50,6 @@ function CustomListaIrrigacao() {
 
                                         <p> <strong className='text-info'>Cultura: </strong>{irrigacao.planta} </p>
                                         <p> <strong className='text-info'>Tempo de Irrigação: </strong>{irrigacao.irrigationTime}s</p>
-                                        <p> <strong className='text-info'>Temperatura: </strong>{irrigacao.temperature}ºC</p>
                                         <p> <strong className='text-info'>Umidade do Solo: </strong>{irrigacao.minimumSoilHumidity}%</p>
                                         <p> <strong className='text-info'>Ativo: </strong>{irrigacao.active.toString()} </p>
                                         

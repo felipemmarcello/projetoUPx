@@ -1,6 +1,7 @@
 import React from "react";
 import axios from 'axios';
 import "./manual.css";
+import "./historicoIrrigacao.css"
 
 function HistoricoIrrigacao() {
     const [plantas, setPlantas] = React.useState([]);
@@ -36,10 +37,9 @@ function HistoricoIrrigacao() {
                     return(
 
                         <div className='p-3'>
-                            <p> <strong className='text-info'>Temperatura: </strong>{planta.temperature} </p>
-                            <p> <strong className='text-info'>Umidade do Solo: </strong>{planta.humidity} </p>
-                            <p> <strong className='text-info'>Data de Irrigação: </strong>{planta.date} </p>
-                            <p> <strong className='text-info'>Hora da Irrigação: </strong>{planta.time} </p>
+                            <p className='text-info'>Umidade do Solo: {planta.humidity}% </p>
+                            <p className='text-info'>Data de Irrigação: {planta.date} </p>
+                            <p className='text-info'>Hora da Irrigação: {planta.time} </p>
                         </div>
                         
                         );
