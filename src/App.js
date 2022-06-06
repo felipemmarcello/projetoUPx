@@ -14,7 +14,7 @@ const App = () => {
       <BrowserRouter>
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-nav">
-            <a class="navbar-brand logo">Irrigation</a>
+            <a class="navbar-brand logo" href='/#'>Irrigation</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,15 +25,15 @@ const App = () => {
               <ul class="navbar-nav">
 
                 <li class="nav-item active">
-                  <a class="nav-link"><Link to="/">Home</Link></a>
+                  <a class="nav-link" href='/#'><Link to="/">Home</Link></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link"><Link to="/assinatura">Assinatura</Link></a>
+                  <a class="nav-link" href='/#'><Link to="/assinatura">Assinatura</Link></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link"><Link to="/equipe">Equipe</Link></a>
+                  <a class="nav-link" href='/#'><Link to="/equipe">Equipe</Link></a>
                 </li>
               </ul>
             </div>

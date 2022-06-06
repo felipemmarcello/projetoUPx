@@ -43,11 +43,11 @@ function Padrao() {
     return (
         <div className="container-fluid">
             <div className="row justify-content-center">
-                <div className="col-md-6 col-sm-12 mt-5 borda bg-card-titulo">
+                <div className="col-md-7 col-sm-12 mt-5 borda bg-card-titulo">
 
                     <p className="texto-informacao pt-4">
                         Escolha dentre as 3 opções fornecidas qual você
-                        deseja ligar/desligar a irrigação automática.
+                        deseja ativar a irrigação automática.
                     </p>
 
                 </div>
@@ -58,17 +58,17 @@ function Padrao() {
                     <img className="img-tamanho" src={pimenta} alt="pimenta" />
 
                     <div className="cultura caixa-lista">
-                        <h2>Pimenta</h2>
+                        <div className="h2Cultura">
+                            <h2>Pimenta</h2>
+                        </div>
 
                         <p className="texto">Irrigar quando a umidade do solo estiver: X</p>
                         <p className="texto">Liberar: X ml de água</p>
                         <p className="texto">Tempo médio para crescer o necessário: X</p>
-                        <p className="texto">Ficar ao sol/Não ficar ao sol</p>
+                    </div>
 
-                        <div className="row justify-content-center ">
-                            <button className="btn-success btn4" onClick={PostPimenta} value="Selecionar">Selecionar</button>
-                        </div>
-
+                    <div className="row justify-content-center ">
+                        <button className="btn-success btn1" onClick={PostPimenta} value="Ativar">Ativar</button>
                     </div>
                 </div>
 
@@ -76,36 +76,36 @@ function Padrao() {
                     <img className="img-tamanho" src={banana} alt="banana" />
 
                     <div className="cultura caixa-lista">
-
-                        <h2>Banana</h2>
+                        <div className="h2Cultura">
+                            <h2>Banana</h2>
+                        </div>
 
                         <p className="texto">Irrigar quando a umidade do solo estiver: X</p>
                         <p className="texto">Liberar: X ml de água</p>
                         <p className="texto">Tempo médio para crescer o necessário: X</p>
-                        <p className="texto">Ficar ao sol/Não ficar ao sol</p>
-
-                        <div className="row justify-content-center ">
-                            <button className="btn-success btn4" onClick={PostBanana} value="Selecionar">Selecionar</button>
-                        </div>
-
                     </div>
+
+                    <div className="row justify-content-center ">
+                        <button className="btn-success btn1" onClick={PostBanana} value="Ativar">Ativar</button>
+                    </div>
+
                 </div>
 
                 <div className="col-md-2 col-sm-12 text-center mt-4">
                     <img className="img-tamanho" src={alface} alt="alface" />
 
                     <div className="cultura caixa-lista">
-                        <h2>Alface</h2>
+                        <div className="h2Cultura">
+                            <h2>Alface</h2>
+                        </div>
                         
                         <p className="texto">Irrigar quando a umidade do solo estiver: X</p>
                         <p className="texto">Liberar: X ml de água</p>
                         <p className="texto">Tempo médio para crescer o necessário: X</p>
-                        <p className="texto">Ficar ao sol/Não ficar ao sol</p>
+                    </div>
 
-                        <div className="row justify-content-center ">
-                            <button className="btn-success btn4" onClick={PostAlface} value="Selecionar">Selecionar</button>
-                        </div>
-
+                    <div className="row justify-content-center ">
+                        <button className="btn-success btn1" onClick={PostAlface} value="Ativar">Ativar</button>
                     </div>
                 </div>
             </div>

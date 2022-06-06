@@ -1,0 +1,25 @@
+.painelPerso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 224px;
+}
+
+.bannerPerfil{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cardBanner{
+    max-width: 90px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.rounded {
+    border-radius: 1rem !important;
+}
+
+.botaoLista{
+    margin-top: 5px;    
+}

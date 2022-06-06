@@ -1,8 +1,10 @@
 import * as React from 'react'
-import "./custom.css";
+import "./customListaIrrigacao.css";
+import "./custom.css"
 import axios from 'axios';
 import { Formik } from 'formik';
 import {toast} from 'react-toastify';
+import cardBanner from '../fotos/cardBanner.png'
 
 function CustomListaIrrigacao() {
 
@@ -27,11 +29,10 @@ function CustomListaIrrigacao() {
             })
     }
     return (
-        <div className='row pb-3'>
-            <div className='col-12 card-group'>
+        <div className='row justify-content-center pb-3'>
                 {irrigacaoList.map((irrigacao) => {
                     return (
-                        <div className='card py-3 bg-body border rounded border-success'>
+                        <div className=' col-sm-12 card py-2 col-md-2 bg-body border rounded border-success bannerPerfil'>
                             <Formik
                                 initialValues={{
                                     planta: irrigacao.planta.toString()
@@ -40,18 +41,26 @@ function CustomListaIrrigacao() {
                                 onSubmit={onSubmit}
 
                                 render={({ values, handleSubmit }) => (
-                                    <form onSubmit={handleSubmit}>
+                                    <form className="painelPerso" onSubmit={handleSubmit}>
 
-                                        <p> <strong className='text-info'>Planta: </strong>{irrigacao.planta} </p>
-                                        <p> <strong className='text-info'>Tempo de Irrigação: </strong>{irrigacao.irrigationTime} </p>
-                                        <p> <strong className='text-info'>Temperatura: </strong>{irrigacao.temperature} </p>
-                                        <p> <strong className='text-info'>Umidade do Solo: </strong>{irrigacao.minimumSoilHumidity} </p>
+                                        <img className= "cardBanner" src={cardBanner} alt="cardBanner"/>
+
+                                        <p> <strong className='text-info'>Cultura: </strong>{irrigacao.planta} </p>
+                                        <p> <strong className='text-info'>Tempo de Irrigação: </strong>{irrigacao.irrigationTime}s</p>
+                                        <p> <strong className='text-info'>Temperatura: </strong>{irrigacao.temperature}ºC</p>
+                                        <p> <strong className='text-info'>Umidade do Solo: </strong>{irrigacao.minimumSoilHumidity}%</p>
                                         <p> <strong className='text-info'>Ativo: </strong>{irrigacao.active.toString()} </p>
                                         
-                                        <div className='row'>
+                                        <div className='row '>
                                             <div className='col-12 text-center'>
                                                 <button className="btn-success px-3" type="submit">Ativar</button>
                                             </div>
+
+                                            {/* Reativar caso continue com a ideia de excluir perfil
+                                            <div className='col-12 text-center botaoLista'>
+                                                <button className="btn-danger px-3" type="submit">Excluir Perfil</button>
+                                            </div>
+                                            */}
                                         </div>
                                     </form>
                                 )}
@@ -59,7 +68,6 @@ function CustomListaIrrigacao() {
                         </div>);
                 })}
             </div>
-        </div>
     )
 }
 

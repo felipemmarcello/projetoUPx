@@ -9,7 +9,35 @@
     border-radius: 20px;
 }
 
-.col-5{
-    top: 20px;
-    left: 450px;
+
+@media only screen and (min-width: 960px) {
+    .col-md-1{
+        width: 12.499999995%;
+        flex: 0 0 12.499%;
+        max-width: 12.499%;
+    }
+}
+
+.text-success {
+    color: black !important;
+}
+
+.paginaCustom{
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.botaoCadastrar{
+    margin-top: 10px;
+}
+
+.border-success {
+    border-color: #000000 !important;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: 1.5rem !important;
 }

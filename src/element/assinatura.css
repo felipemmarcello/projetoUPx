@@ -7,14 +7,12 @@
 /*-------------------------------------------------------*/
 
 .padrao{
-    height: 530px;
-    background: rgba(41, 167, 221, 0.6);
+    height: 430px;
+    border: solid;
+    border-width: 2px;
     border-radius: 20px;
-}
-
-.padrao h2{
-    margin-top: 30px;
-    font-style: italic;
+    margin-top: 20px;
+    background: rgba(59, 171, 220, 0.6);
 }
 
 .pt-4, .py-4 {
@@ -22,19 +20,13 @@
 }
 
 .p-2 li{
-    padding-top:15px;
+    padding-top: 15px;
+    width: 200px;
+    padding-left: 6px;
 }
 
 .btn1 {
-    margin-top: 10em;
-}
-
-.btn2 {
-    margin-top: 3.1em;
-}
-
-.btn3 {
-    margin-top: 10em;
+    margin-top: 1em;
 }
 
 dl, ol, ul {
@@ -50,12 +42,43 @@ p{
     font-size: 15px;
 }
 
-h2{
+.padrao h2{
     justify-content: center;
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.h2CaixaP{
+    background: #1bcc94cd;
+    border-radius: 10px;
+    
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 130px;
+}
+
+.h2CaixaC{
+    background: #1bcc94cd;
+    border-radius: 10px;
+    
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 205px;
+}
+
+.h2CaixaM{
+    background: #1bcc94cd;
+    border-radius: 10px;
+    
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 140px;
 }
 
 .texto{
