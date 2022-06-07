@@ -58,9 +58,11 @@ function CustomListaIrrigacao() {
                                                 <button className="btn-success px-3" type="submit">Ativar</button>
                                             </div>
 
+                                            {/* Reativer se for utilizar o botão de excluir perfil
                                             <div className='col-12 text-center botaoLista'>
                                                 <button className="btn-danger px-3" type="submit">Excluir Perfil</button>
                                             </div>
+                                            */}
                                             
                                         </div>
                                     </form>
