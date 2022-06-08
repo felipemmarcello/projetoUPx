@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/projetoUPx/static/css/main.06a855a9.css",
+    "main.js": "/projetoUPx/static/js/main.46a460dc.js",
+    "static/js/787.fd8d68da.chunk.js": "/projetoUPx/static/js/787.fd8d68da.chunk.js",
+    "static/media/alface.png": "/projetoUPx/static/media/alface.556a99ea6b44d67748cd.png",
+    "static/media/banana.png": "/projetoUPx/static/media/banana.5942500313d58c921b59.png",
+    "static/media/pimenta.png": "/projetoUPx/static/media/pimenta.84fa158e7655ba25c410.png",
+    "static/media/leonardo.jpg": "/projetoUPx/static/media/leonardo.45b361e43f77ecdc3d44.jpg",
+    "static/media/danilo.jpg": "/projetoUPx/static/media/danilo.2916b7844d2be3e9ec84.jpg",
+    "static/media/eduardo.jpg": "/projetoUPx/static/media/eduardo.66cc6069fb9538bcc11d.jpg",
+    "static/media/cardBanner.png": "/projetoUPx/static/media/cardBanner.caf7115d3bb90d48f1cb.png",
+    "static/media/johann.jpg": "/projetoUPx/static/media/johann.cdc6395143c576e80ed8.jpg",
+    "static/media/felipe.jpg": "/projetoUPx/static/media/felipe.dde14c70d22d1ce88443.jpg",
+    "static/media/enzo.jpg": "/projetoUPx/static/media/enzo.9559ba2f2f33bf99f0ca.jpg",
+    "index.html": "/projetoUPx/index.html",
+    "main.06a855a9.css.map": "/projetoUPx/static/css/main.06a855a9.css.map",
+    "main.46a460dc.js.map": "/projetoUPx/static/js/main.46a460dc.js.map",
+    "787.fd8d68da.chunk.js.map": "/projetoUPx/static/js/787.fd8d68da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a855a9.css",
+    "static/js/main.46a460dc.js"
+  ]
+}
