@@ -49,7 +49,7 @@ function Custom() {
                                     </div>
 
                                     <div>
-                                        <label className="text-info font-weight-bold pr-2">Tempo de irrigação(s):</label>
+                                        <label className="text-info font-weight-bold pr-2">Tempo de irrigação (s):</label>
                                         <Field name="irrigationTime" type="number" />
                                     </div>
 

@@ -11,7 +11,7 @@ import Custom from './element/irrigacoes/custom';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-nav">
             <a class="navbar-brand logo" href='/#'>Irrigation</a>
