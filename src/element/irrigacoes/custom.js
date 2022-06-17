@@ -28,7 +28,7 @@ function Custom() {
             <CustomListaIrrigacao/>
 
             <div className='row justify-content-center mb-3'>
-                <div className='col-5 text-center justify-content-center'>
+                <div className='col-md-5 col-sm-12 text-center justify-content-center'>
                     <div className='card p-3 bg-body border border-success rounded'>
 
                         <Formik
