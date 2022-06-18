@@ -55,20 +55,20 @@ function Padrao() {
 
             <div className="row py-3 justify-content-center">
                 <div className="col-md-2 col-sm-12 text-center mt-4">
-                    <img className="img-tamanho" src={pimenta} alt="pimenta" />
+                    <img className="img-tamanho" src={alface} alt="alface" />
 
                     <div className="cultura caixa-lista">
                         <div className="h2Cultura">
-                            <h2>Pimenta</h2>
+                            <h2>Alface</h2>
                         </div>
-
+                        
                         <p className="texto">Irrigar quando a umidade do solo estiver: X</p>
                         <p className="texto">Liberar: X ml de água</p>
                         <p className="texto">Tempo médio para crescer o necessário: X</p>
                     </div>
 
                     <div className="row justify-content-center ">
-                        <button className="btn-success btn1" onClick={PostPimenta} value="Ativar">Ativar</button>
+                        <button className="btn-success btn1" onClick={PostAlface} value="Ativar">Ativar</button>
                     </div>
                 </div>
 
@@ -92,20 +92,20 @@ function Padrao() {
                 </div>
 
                 <div className="col-md-2 col-sm-12 text-center mt-4">
-                    <img className="img-tamanho" src={alface} alt="alface" />
+                    <img className="img-tamanho" src={pimenta} alt="pimenta" />
 
                     <div className="cultura caixa-lista">
                         <div className="h2Cultura">
-                            <h2>Alface</h2>
+                            <h2>Pimenta</h2>
                         </div>
-                        
+
                         <p className="texto">Irrigar quando a umidade do solo estiver: X</p>
                         <p className="texto">Liberar: X ml de água</p>
                         <p className="texto">Tempo médio para crescer o necessário: X</p>
                     </div>
 
                     <div className="row justify-content-center ">
-                        <button className="btn-success btn1" onClick={PostAlface} value="Ativar">Ativar</button>
+                        <button className="btn-success btn1" onClick={PostPimenta} value="Ativar">Ativar</button>
                     </div>
                 </div>
             </div>
