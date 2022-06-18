@@ -32,7 +32,7 @@ function HistoricoIrrigacao() {
     return (
 
         <div className='text-center'>
-            <div className='card bg-body border rounded border-success'>
+            <div className='card bg-body border rounded border-success historicoIrrig'>
                 {plantas.map((planta) => {
                     return(
 
